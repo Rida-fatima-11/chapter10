@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+       <!-- Qno:01 -->
+    <a href="#" onclick="clickeable()">Click Me</a> 
+     <!-- Qno:02-->
+     <h1>Click on a Mobile Image</h1>
+     <div class="image-container">
+         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTupuNRlfs341aoi2MOI9b98Z2TsGOewcHefw&s" alt="Mobile 1" onclick="showAlert('Mobile 1')">
+         <img src="https://phoneexpress.pk/wp-content/uploads/2023/10/Redmi-12.jpg" alt="Mobile 2" onclick="showAlert('Mobile 2')">
+         <img src="https://propakistani.pk/price/wp-content/uploads/2024/05/Samsung-Galaxy-S24-300x300.jpg" alt="Mobile 3" onclick="showAlert('Mobile 3')">
+     </div> 
+
+    <h2 style="text-align: center;">Student Records</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="studentTable">
+            <!-- Student records will be dynamically inserted here -->
+        </tbody>
+    </table>
+    
+    <img id="myImage" src="https://img.freepik.com/free-photo/sports-car-driving-asphalt-road-night-generative-ai_188544-8052.jpg" alt="First Image" width="300" height="200">
+    <h2> counter</h2>
+    <div id="counter">0</div>
+    <button onclick="increase()">Increase</button>
+    <button onclick="decrease()">Decrease</button>
+
+    
+
+    <script src="app.js"></script>
+</body>
+</html>
